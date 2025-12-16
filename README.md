@@ -16,7 +16,7 @@ Este projeto representa a presença online da **ITEC Development**, apresentando
 
 > Substitui a imagem abaixo por um screenshot real do projeto.
 
-![Preview da Página](./src/images/background/)
+![Preview da Página](src/images/readme-img.png)
 
 ---
 
