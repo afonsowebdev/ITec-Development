@@ -1,0 +1,16 @@
+:root {
+    --facebook: #1877f2;
+    --instagram:#e4405f;
+    --youtube: #ff0000;
+    --linkedin:#0a66c2;
+    --twitter: #1da1f2;
+
+    --primary-color: #3362B2;
+    --secundary-color: #ffffff;
+    
+    --text-color-01: #000000;
+    --text-color-02: #ffffff;
+
+    --border-radius: 18px;
+    --btn-padding: 10px 20px;
+}

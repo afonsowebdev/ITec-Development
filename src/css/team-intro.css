@@ -1,0 +1,19 @@
+section#team-intro {
+    background: url(/src/images/background-image/background.jpg) center no-repeat;
+    background-size: cover;
+
+    div {
+        text-align: center;
+        color: var(--text-color-02);
+
+        h2 {
+            font-size: 2rem;
+            margin-bottom: 1.2rem;
+        }
+
+        p {
+            font-weight: 300;
+            margin-bottom: 1.2rem;
+        }
+    }
+}

@@ -1,0 +1,115 @@
+footer#footer {
+    background: url(/src/images/background-image/background.jpg) no-repeat center;
+    background-size: cover;
+
+    div.footer {
+        div {
+            display: flex;
+            justify-content: space-around;
+            align-items: first baseline;
+            gap: 20px;
+
+            padding: 8px 0;
+
+            div.footer__logo {
+
+                a {
+                    color: var(--text-color-02);
+                    font-size: 2.5rem;
+                    font-weight: 700;
+
+                    span.nav__span {
+                        font-size: x-small;
+                        font-weight: 400;
+                    }
+                }
+            }
+
+            div.footer__links {
+                ul {
+                    display: flex;
+                    gap: 20px;
+
+                    li {
+                        a {
+                            color: var(--text-color-02);
+                            font-weight: 500;
+                            transition: all 0.3s ease-in-out;
+
+                            &:hover {
+                                text-shadow: 0 5px 8px rgba(0, 0, 0, 0.2);
+                            }
+                        }
+                    }
+                }
+            }
+
+            div.footer__contact {
+                display: flex;
+                flex-direction: column;
+                gap: 5px;
+
+                h2 {
+                    color: var(--text-color-02);
+                    font-size: medium;
+                }
+
+                p {
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    font-size: 0.95rem;
+                    font-weight: 400;
+                    color: var(--text-color-02);
+                }
+
+                div.redes__social {
+                    a {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        padding: 8px;
+                        border-radius: 50%;
+                        font-size: 1.6rem;
+
+
+                        &.facebook {
+                            background-color: var(--facebook);
+                            color: var(--text-color-02);
+                        }
+
+                        &.linkedin {
+                            background-color: var(--linkedin);
+                            color: var(--text-color-02);
+                        }
+
+                        &.instagram {
+                            background-color: var(--instagram);
+                            color: var(--text-color-02);
+                        }
+
+                        &.youtube {
+                            background-color: var(--youtube);
+                            color: var(--text-color-02);
+                        }
+
+                        &.twitter {
+                            background-color: var(--twitter);
+                            color: var(--text-color-02);
+                        }
+                    }
+                }
+            }
+
+
+           /*  div {
+                p {
+                    color: var(--text-color-02);
+                }
+            } */
+        }
+
+
+    }
+
+}

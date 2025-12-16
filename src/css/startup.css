@@ -1,0 +1,26 @@
+section#startup {
+    div.startup {
+        div {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            gap: 20px;
+
+            p {
+                text-align: justify;
+                color: var(--primary-color);
+            }
+
+            div {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                img {
+                    width: 300px;
+                    height: auto;
+                }
+            }
+        }
+    }
+}

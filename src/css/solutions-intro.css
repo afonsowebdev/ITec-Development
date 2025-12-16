@@ -1,0 +1,37 @@
+section#solutions-intro {
+    background-image: url(/src/images/background-image/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    div.solutions-intro {
+        text-align: center;
+        color: var(--text-color-02);
+
+        h2 {
+            font-size: 2rem;
+            margin-bottom: 1.2rem;
+        }
+
+        p {
+            font-weight: 300;
+            margin-bottom: 1.2rem;
+        }
+
+        div {
+            a {
+                color: var(--text-color-02);
+                box-shadow: 0 5px 8px rgba(0, 0, 0, 0.2);
+                border: 2px solid var(--secundary-color);
+                border-radius: var(--border-radius);
+                padding: var(--btn-padding);
+                transition: all 0.3s ease-in-out;
+
+                &:hover {
+                    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.5);
+                }
+            }
+        }
+    }
+}
