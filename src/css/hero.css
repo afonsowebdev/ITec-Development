@@ -18,6 +18,10 @@ section#hero {
                 color: var(--secundary-color);
                 font-size: 3rem;
                 font-weight: 500;
+
+                span.title__span {
+                    font-size: x-small;
+                }
             }
 
             h1 {
@@ -30,6 +34,7 @@ section#hero {
                 color: var(--secundary-color);
                 text-align: justify;
                 width: 600px;
+                margin-bottom: 0.65rem;
             }
            
 
