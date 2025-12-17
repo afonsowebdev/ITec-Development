@@ -31,31 +31,37 @@ section#team {
 
                 h3.team__name {
                     font-size: 1.2rem;
-                    margin-bottom: 0.5rem;
+                    margin-bottom: 0.3rem;
                     color: var(--primary-color);
                 }
 
-                p.team__role {
+                p.team__position {
                     font-size: 0.95rem;
+                    font-weight: 600;
+                    color: var(--primary-color);
+                    margin-bottom: 0.5rem;
+                }
+
+                p.team__specialty {
+                    font-size: 0.9rem;
                     color: var(--text);
+                    margin-bottom: 1rem;
+                }
+
+                a.team__linkedin {
+                    display: inline-block;
+                    font-size: 0.9rem;
+                    font-weight: 500;
+                    color: var(--primary-color);
+                    text-decoration: none;
+                    transition: color 0.3s ease;
+
+                    &:hover {
+                        color: var(--suave-01);
+                        text-decoration: underline;
+                    }
                 }
             }
         }
-    }
-}
-
-@media (max-width: 1024px) {
-    .team__grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media (max-width: 600px) {
-    .team__grid {
-        grid-template-columns: 1fr;
-    }
-
-    .team__title {
-        font-size: 2rem;
     }
 }
