@@ -74,14 +74,15 @@ header {
 }
 
 .active {
-    background-color: #fffffffe;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: #10266fc6;
+    backdrop-filter: blur(30px);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
     
     div.container {
         nav.nav__bar {
             div.nav__logo {
                 a {
-                    color: var(--primary-color);
+                    color: var(--text-color-02);
                 }
             }
 
@@ -89,14 +90,14 @@ header {
                 ul.nav__list {
                     li.nav__item {
                         a.nav__link {
-                            color: var(--primary-color);
+                            color: var(--text-color-02);
                         }
                     }
                 }
 
                 a.nav__btn-contact {
-                    color: var(--primary-color);
-                    border: 2px solid var(--primary-color);
+                    color: var(--text-color-02);
+                    border: 2px solid var(--text-color-02);
                 }
             } 
         }
