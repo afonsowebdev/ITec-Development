@@ -1,24 +1,10 @@
 section#services {
     div.service {
-
-        /* display: flex;
-        justify-content: space-between;
-        align-items: center;
-
-        position: absolute;
-        width: 100%;
-        top: 85%;
-        left: 50%;
-        transform: translateX(-50%); */
-
         margin-top: -12%; /* ou o valor que quiser para sobrepor */
-    position: relative; /* mantém no fluxo */
-    z-index: 10;
+        position: relative; /* mantém no fluxo */
+        z-index: 10;
 
         div {
-
-
-
             h2 {
                 font-size: 1.5rem;
                 color: var(--text-color-02);
