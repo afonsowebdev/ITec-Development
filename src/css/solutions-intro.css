@@ -35,3 +35,17 @@ section#solutions-intro {
         }
     }
 }
+
+@media (max-width: 768px) {
+    section#solutions-intro {
+        div.solutions-intro {
+            h2 {
+                font-size: 1.5rem;
+            }
+
+            p {
+                font-size: 14px;
+            }
+        }
+    }
+}

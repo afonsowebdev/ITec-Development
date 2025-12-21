@@ -64,3 +64,34 @@ section#hero {
         }
     }
 }
+
+@media (max-width: 768px) {
+    section#hero {
+        div.hero {
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+            gap: 2rem;
+
+            div {
+                h2 {
+                    font-size: 2rem;
+                }
+
+                h1 {
+                    font-size: 4rem;
+                }
+
+                p {
+                    width: 100%;
+                }
+
+                div {
+                    a.cta {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}

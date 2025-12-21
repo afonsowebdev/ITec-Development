@@ -38,7 +38,14 @@ section#solutions {
             }
         }
     }
+}
 
-
-
+@media (max-width: 768px) {
+    section#solutions {
+        div.solutions {
+            div.solutions__grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    }
 }

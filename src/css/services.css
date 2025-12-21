@@ -57,3 +57,57 @@ section#services {
         }
     }
 }
+
+@media (max-width: 768px) {
+    section#services {
+        div.service {
+            margin-top: -8%; /* ajusta o valor para telas menores */
+
+            div {
+                h2 {
+                    font-size: 1.5rem;
+                    color: var(--primary-color);
+                }
+
+                div.cards {
+                    grid-template-columns: 1fr; /* uma coluna em telas pequenas */
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    section#services {
+        div.service {
+            div {
+                h2 {
+                    font-size: 1.2rem;
+                }
+
+                div.cards {
+                    gap: 1.5rem;
+
+                    div.service-card {
+                        padding: 1.5rem;
+
+                        h3 {
+                            font-size: 14px;
+                        }
+
+                        p {
+                            font-size: 13px;
+                        }
+
+                        div {
+                            img {
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+

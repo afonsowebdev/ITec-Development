@@ -80,6 +80,7 @@ header {
     
     div.container {
         nav.nav__bar {
+
             div.nav__logo {
                 a {
                     color: var(--text-color-02);
@@ -100,6 +101,67 @@ header {
                     border: 2px solid var(--text-color-02);
                 }
             } 
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        div.container {
+            nav.nav__bar {
+                div.nav__links {
+                    display: none;
+                    ul.nav__list {
+                        gap: 20px;
+
+                        li.nav__item {
+                            a.nav__link {
+                                font-size: 14px;
+                            }
+                        }
+                    }
+
+                    a.nav__btn-contact {
+                        padding: 5px 20px;
+                        font-size: medium;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        div.container {
+            nav.nav__bar {
+                div.nav__logo {
+                    a {
+                        font-size: 2rem;
+
+                        span.nav__span {
+                            display: none;
+                        }
+                    }
+                }
+
+                div.nav__links {
+                    ul.nav__list {
+                        gap: 15px;
+
+                        li.nav__item {
+                            a.nav__link {
+                                font-size: 12px;
+                            }
+                        }
+                    }
+
+                    a.nav__btn-contact {
+                        padding: 5px 15px;
+                        font-size: small;
+                    }
+                }
+            }
         }
     }
 }
