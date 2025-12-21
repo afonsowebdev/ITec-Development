@@ -1,0 +1,122 @@
+section#contact {
+    div.contact {
+        div {
+            h2 {
+                color: var(--primary-color);
+                font-size: 2rem;
+                font-weight: 700;
+                text-align: center;
+                margin-bottom: 1rem;
+            }
+
+            div.info {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                padding: 2rem;
+                border-radius: 0.60rem;
+                margin-bottom: 2rem;
+
+                background: url(/src/images/background-image/background.jpg) no-repeat center;
+                background-size: cover;
+
+                a {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 10px;
+
+                    color: var(--text-color-02);
+                    font-weight: 600;
+
+                    span {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+
+                        width: 50px;
+
+                        font-size: 1.8rem;
+                        font-weight: 900;
+                        color: var(--primary-color);
+                        background-color: var(--secundary-color);
+                        border-radius: 0.80rem;
+                        padding: 8px;
+                    }
+                }
+            }
+        }
+
+        div#info-contact {
+
+            div.info-contact {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 0.90rem;
+
+                iframe {
+                    width: 100%;
+
+                    border-radius: 0.70rem;
+                    box-shadow: 0 5px 6px rgb(0, 0, 0, 0.2);
+                }
+
+                div {
+                    form {
+                        border-radius: 0.70rem;
+                        box-shadow: 0 5px 6px rgb(0, 0, 0, 0.2);
+                        padding: 2rem;
+
+                        width: 100%;
+                        height: auto;
+
+                        div.input-group {
+                            display: flex;
+                            flex-direction: column;
+                            gap: 10px;
+
+                            width: 400px;
+                            height: auto;
+
+                            label {
+                                font-weight: 600;
+                                color: var(--primary-color);
+                                margin-top: 0.70rem;
+                            }
+
+                            input,
+                            textarea {
+                                padding: 8px;
+                                border: 1px solid var(--primary-color);
+                                border-radius: 5px;
+                                font-size: 0.9rem;
+                                outline: none;
+
+                                color: var(--text);
+                                background-color: var(--background);
+                                margin-top: 8px;
+                                box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+                            }
+
+
+                        }
+
+                        button {
+                            width: 100%;
+                            margin-top: 1rem;
+                            padding: 14px 20px;
+                            background-color: var(--primary-color);
+                            color: var(--text-color-02);
+                            font-size: 16px;
+                            font-weight: 500;
+                            border: none;
+                            border-radius: 5px;
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
