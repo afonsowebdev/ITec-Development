@@ -120,3 +120,34 @@ section#contact {
         }
     }
 }
+
+@media (max-width: 768px) {
+    section#contact {
+        div.contact {
+            div.info {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            div#info-contact {
+                div.info-contact {
+                    flex-direction: column-reverse;
+                    gap: 15px;
+
+                    iframe {
+                        height: 300px;
+                    }
+
+                    div {
+                        width: 90%;
+                        form {
+                            div.input-group {
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
