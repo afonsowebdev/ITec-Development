@@ -1,0 +1,86 @@
+section#gallery {
+    div.gallery {
+        margin-top: -12%; /* ou o valor que quiser para sobrepor */
+        position: relative; /* mantém no fluxo */
+        z-index: 10;
+        div.gallery__content {
+            h2 {
+                font-size: 2em;
+                margin-bottom: 0.5em;
+                text-align: center;
+                color: var(--text-color-02);
+            }
+
+            p {
+                font-size: 1.1em;
+                margin-bottom: 2rem;
+                text-align: center;
+                color: var(--text-color-02);
+            }
+        }
+
+        div.gallery__items {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-bottom: 30px;
+
+            div.gallery__item {
+                padding: 2rem;
+                border-radius: var(--border-radius);
+                background-color: var(--secundary-color);
+                box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+                transition: all 0.3s ease-in-out;
+
+                &:hover {
+                    transform: translateY(-5px);
+                }
+
+                h3 {
+                    color: var(--primary-color);
+                    font-size: 16px;
+                    font-weight: 700;
+                    margin-bottom: 10px;
+                }
+
+                p {
+                    font-size: 14px;
+                    font-weight: 300;
+                }
+
+                div {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    img {
+                        width: 300px;
+                        height: auto;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    section#gallery {
+        div.gallery {
+            div.gallery__content {
+                h2 {
+                    font-size: 1.5em;
+                    color: var(--primary-color);
+                }
+
+                p {
+                    font-size: 1em;
+                    color: var(--primary-color);
+                }
+            }
+
+            div.gallery__items {
+                grid-template-columns: 1fr;
+            }
+        }
+    }
+}
