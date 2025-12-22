@@ -24,3 +24,41 @@ section#startup {
         }
     }
 }
+
+@media (max-width: 768px) {
+    section#startup {
+        div.startup {
+            div {
+                flex-direction: column;
+                gap: 15px;
+
+                div {
+                    img {
+                        width: 100%;
+                        max-width: 300px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    section#startup {
+        div.startup {
+            div {
+                gap: 10px;
+
+                p {
+                    font-size: 14px;
+                }
+
+                div {
+                    img {
+                        max-width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}

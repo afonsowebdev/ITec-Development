@@ -67,6 +67,10 @@ header {
                     }
                 }
             }
+
+            div.nav__toggle {
+                display: none;
+            }
         }
     }
 
@@ -125,6 +129,18 @@ header {
                         padding: 5px 20px;
                         font-size: medium;
                     }
+                }
+
+                div.nav__toggle {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 1.8rem;
+                    color: var(--text-color-02);
+                    cursor: pointer;
+                    border: 1px solid var(--text-color-02);
+                    border-radius: 50%;
+                    padding: 8px;
                 }
             }
         }

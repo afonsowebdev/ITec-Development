@@ -78,3 +78,44 @@ section#services-budget {
 
 
 }
+
+@media screen and (max-width: 768px) {
+    section#services-budget {
+        div.services-budget {
+            margin-top: -20%;
+
+            div {
+                h2 {
+                    font-size: 1.2rem;
+                }
+
+                div.cards {
+                    grid-template-columns: 1fr;
+
+                    article.service-card {
+                        div.service-card__body {
+                            div {
+                                flex-direction: column;
+                                gap: 0.5rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 480px) {
+    section#services-budget {
+        div.services-budget {
+            margin-top: -25%;
+
+            div {
+                h2 {
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+}
