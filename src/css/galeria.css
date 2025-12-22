@@ -1,21 +1,19 @@
 section#gallery {
     div.gallery {
-        margin-top: -12%; /* ou o valor que quiser para sobrepor */
-        position: relative; /* mantém no fluxo */
-        z-index: 10;
+        
         div.gallery__content {
             h2 {
                 font-size: 2em;
                 margin-bottom: 0.5em;
                 text-align: center;
-                color: var(--text-color-02);
+                color: var(--primary-color);
             }
 
             p {
                 font-size: 1.1em;
                 margin-bottom: 2rem;
                 text-align: center;
-                color: var(--text-color-02);
+                color: var(--primary-color);
             }
         }
 

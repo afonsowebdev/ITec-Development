@@ -1,14 +1,18 @@
 section#services-budget {
     div.services-budget {
-        margin-top: -12%;
-        position: relative;
 
-        z-index: 10;
 
         div {
             h2 {
                 font-size: 1.5rem;
-                color: var(--text-color-02);
+                color: var(--primary-color);
+                text-align: center;
+                margin-bottom: 1rem;
+            }
+
+            p {
+                font-size: 1.1rem;
+                color: var(--primary-color);
                 text-align: center;
                 margin-bottom: 2rem;
             }
