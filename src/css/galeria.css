@@ -1,6 +1,5 @@
 section#gallery {
     div.gallery {
-        
         div.gallery__content {
             h2 {
                 font-size: 2em;
@@ -24,7 +23,9 @@ section#gallery {
             margin-bottom: 30px;
 
             div.gallery__item {
-                padding: 2rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
                 border-radius: var(--border-radius);
                 background-color: var(--secundary-color);
                 box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
@@ -34,27 +35,9 @@ section#gallery {
                     transform: translateY(-5px);
                 }
 
-                h3 {
-                    color: var(--primary-color);
-                    font-size: 16px;
-                    font-weight: 700;
-                    margin-bottom: 10px;
-                }
-
-                p {
-                    font-size: 14px;
-                    font-weight: 300;
-                }
-
-                div {
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-
-                    img {
-                        width: 300px;
-                        height: auto;
-                    }
+                img {
+                    width: 300px;
+                    height: auto;
                 }
             }
         }
